@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": false,
+    "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+    "editor.minimap.maxColumn": 120,
+    "editor.minimap.renderCharacters": false,
+    "editor.wordWrap": "off",
+    "editor.wordWrapColumn": 1,
+    "editor.wrapOnEscapedLineFeeds": false,
+    "editor.wrappingIndent": "none",
+    "diffEditor.wordWrap": "off"
+}

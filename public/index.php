@@ -1,4 +1,6 @@
 <?php
+
+session_start() ;
 include __DIR__."/../template/header.php";
 
 

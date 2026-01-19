@@ -12,14 +12,16 @@
 </head>
 
 <body>
-    <?php require_once __DIR__ . "/../app/controllers/signeupcontroller.php";
-        $class = new signeup();
+    <?php require_once __DIR__ . "/../app/controllers/signadmincontroller.php";
+        $class = new signeadmin();
         $class->signeup();
+
+   
     ?>
     <div
         class="bg-[linear-gradient(111deg,#ffc090_1%,#FF820F_44%,#702700_93%)] min-h-screen flex items-center justify-center p-4">
         <div class="bg-white/10 backdrop-blur-sm rounded-2xl shadow-2xl p-8 max-w-md w-full border border-white/20">
-
+            <h1 class="font-dancing text-[50px] text-orange-900 font-medium block mb-2">Creer un nouveau Admin</h1>
 
             <form class="space-y-6" method ="POST">
                 <div>
@@ -53,7 +55,7 @@
             <div class="mt-8 text-center">
                 <p class="font-dancing text-lg text-[#682f03a3]">
                     Vous avez deja un compte?
-                    <a href="login" class="text-[#ffc090ff] font-bold hover:underline ml-1">Se connecter</a>
+                    <a href="loginadmin" class="text-[#ffc090ff] font-bold hover:underline ml-1">Se connecter</a>
                 </p>
             </div>
         </div>
